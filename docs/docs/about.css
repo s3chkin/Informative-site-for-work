@@ -38,6 +38,9 @@
     height: 50px;
     margin: 0 auto;
     background-color: #0e7c76;
+    border-radius: 10px;
+    
+
   }  
   
   
@@ -55,6 +58,10 @@
     margin: 5px;
     padding: 4px;
     border-right:2px solid black;
+    text-decoration:none;
+    border: 1px solid #00ffbf;
+    border-radius: 10px;
+    
   
    
   }
@@ -64,14 +71,24 @@
     list-style-type: none; 
     margin: 0;
     padding: 0;
+   
   }
    
   
   .menu li a:hover 
   {
+    background-color: rgb(36, 226, 131);;
+    font-size: 23px;
+    padding: 0px;
+    /*box-shadow: 2px 2px 4px black inset;*/
     transform:scale(1.5,1.5);
   }
   
+  #motivation1
+  {
+    background-color: rgb(36, 226, 131);
+    box-shadow: 4px 4px 4px black inset;
+  }
   
   #img1
   {
@@ -95,6 +112,9 @@
  background-color: #0e7c76;
  margin: 0 auto;
  padding: 0 auto;
+ border-radius: 10px;
+ border: 1px solid #00ffbf;
+
  }
  
 /* div .menu
@@ -121,7 +141,8 @@
  {
   display: block;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
+
  }
  #block6
  {
